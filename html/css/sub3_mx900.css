@@ -1,0 +1,90 @@
+div.wrapper{
+    width: 100%;
+}
+div.wrapper .hdrWrap header .search ul input{
+    width: 75%;
+}
+div.wrapper .hdrWrap header .search ul button{
+    width: 40px;
+}
+div.wrapper .hdrWrap header .menuTap nav{
+    width: calc(90% - 20px); margin-right: 20px;
+}
+div.wrapper .hdrWrap header .menuTap ul{
+    display: none;
+}
+div.fixedPlayer .pWrapper .title{
+    width: 30%;
+}
+div.fixedPlayer .pWrapper .btn1{
+    width: 30%; margin-right: 30px;
+}
+div.fixedPlayer .pWrapper .playbar{
+    width: 40%; margin-right: 10px;
+}
+div.fixedPlayer .pWrapper .playbar ul li{
+    margin: 0 10px;
+}
+
+
+div.ct1 .info .albumCover .image{
+    height: 300px;
+}
+div.ct1 .info .albumInfo .info{
+    display: none;
+}
+div.ct1 .info .albumInfo h2{
+    line-height: 30px;
+}
+div.ct1 .info .albumInfo h3{
+    line-height: 30px;
+}
+div.ct1 .info .albumInfo p{
+    height: 80px;
+}
+div.ct1 .info .albumInfo .btn{
+    margin-top: 20px;
+}
+div.ct1 .info .albumInfo .btn button{
+    width: 60px; height: 60px;
+}
+div.ct1 .allBtns .leftBtn button{
+    width: 100px; margin-right: 10px;
+}
+div.ct1 .playlist header ul li:nth-of-type(4){
+    width: 30%;
+}
+div.ct1 .playlist section article h4:nth-of-type(3){
+    width: 30%;
+}
+
+div.ct2 section .swiper-container .swiper-wrapper .swiper-slide h5{
+    line-height: 20px; margin-top: 10px;
+}
+div.ct2 section .swiper-container .swiper-wrapper .swiper-slide .youtube iframe{
+    height: 120px;
+}
+div.ct3 section article .image{
+    height: 120px;
+}
+div.ct4 section article .image{
+    height: 120px;
+}
+div.ct5 section .cBox .profile{
+    width: 15%; margin: 0;
+}
+div.ct5 section .cBox .profile .image{
+    margin-right: 0;
+}
+div.ct5 section .cBox input{
+    width: 65%;
+}
+div.ct5 section .cBox .btn{
+    width: 18%;
+}
+div.ct5 section .comment ul h5{
+    width: 70%;
+}
+div.ct5 section article ul{
+    width: 35%;
+}
