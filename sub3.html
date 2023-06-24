@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melon Album</title>
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sub3.css">
+    <link rel="stylesheet" href="css/mx1680.css" media="(max-width:1680px)">
+    <link rel="stylesheet" href="css/sub3_mx1200.css" media="(max-width:1200px)">
+    <link rel="stylesheet" href="css/sub3_mx900.css" media="(max-width:900px)">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/leftFixedBar.js"></script>
+    <script src="js/tail.js"></script>
+</head>
+
+<body>
+    <? include 'leftFixedBar.html' ?>
+    <!-- <div class="fixedBar">
+    <div class="showBtn"></div>
+    <div class="logo"><a href="index.html">MELON</a></div>
+    <div class="category">
+        <dl class="list">
+            <dt><i class="fas fa-chart-bar"></i>멜론차트</dt>
+            <dd>24H</dd>
+            <dd>일간</dd>
+            <dd>주간</dd>
+            <dd>월간</dd>
+            <dd>시대</dd>
+        </dl>
+        <dl class="list">
+            <dt><i class="fas fa-headphones"></i>최신곡</dt>
+            <dd>국내</dd>
+            <dd>해외</dd>
+        </dl>
+        <dl class="list">
+            <dt><i class="fas fa-book"></i>최신앨범</dt>
+            <dd>국내</dd>
+            <dd>해외</dd>
+        </dl>
+        <dl class="list">
+            <dt><i class="xi-album"></i>국내음악</dt>
+            <dd>발라드</dd>
+            <dd>댄스</dd>
+            <dd>랩/힙합</dd>
+            <dd>R&amp;B/Soul</dd>
+            <dd>인디음악</dd>
+            <dd>록/메탈</dd>
+            <dd>트로트</dd>
+        </dl>
+        <dl class="list">
+            <dt><i class="xi-album"></i>해외음악</dt>
+            <dd>POP</dd>
+            <dd>록/메탈</dd>
+            <dd>일렉트로니카</dd>
+            <dd>랩/힙합</dd>
+            <dd>R&amp;B/Soul</dd>
+            <dd>포크/블루스/컨트리</dd>
+        </dl>
+        <dl class="list">
+            <dt><i class="xi-album"></i>기타장르</dt>
+            <dd>OST</dd>
+            <dd>클래식</dd>
+            <dd>재즈</dd>
+            <dd>뉴에이지</dd>
+            <dd>J-POP</dd>
+            <dd>월드뮤직</dd>
+        </dl>
+        <dl class="list">
+            <dt><i class="fas fa-crown"></i>DJ플레이리스트</dt>
+            <dd>투데이</dd>
+            <dd>전문가 선곡</dd>
+            <dd>#테마장르</dd>
+            <dd>파워DJ</dd>
+            <dd>인기</dd>
+        </dl>
+        <dl class="list">
+            <dt><i class="fab fa-youtube"></i>뮤직비디오</dt>
+            <dd>최신 영상</dd>
+            <dd>추천 영상</dd>
+            <dd>주간 TOP 100</dd>
+        </dl>
+        <hr>
+        <dl>
+            <dt><i class="far fa-heart"></i>좋아요한</dt>
+            <dt><i class="far fa-file-alt"></i>내 플레이리스트</dt>
+            <dt><i class="far fa-star"></i>팬맺은</dt>
+            <dt><i class="fas fa-dna"></i>뮤직DNA</dt>
+            <dt><i class="far fa-folder"></i>다운로드한</dt>
+            <dt><i class="fas fa-cog"></i>설정</dt>
+        </dl>
+    </div>
+</div> -->
+   
+    <div class="wrapper">
+        <? include 'head.html' ?>
+        <!-- <div class="hdrWrap">
+    <header>
+        <div class="search">
+            <ul>
+                <li><i class="fas fa-search"></i></li>
+                <input type="text" placeholder="검색어를 입력해주세요.">
+                <li>
+                    <div class="btn"><button>검색</button></div>
+                </li>
+            </ul>
+        </div>
+        <div class="menuTap">
+            <nav>
+                <h2><a href="index.html">홈</a></h2>
+                <h2><a href="sub1.html">멜론차트</a></h2>
+                <h2><a href="sub2.html">뮤직비디오</a></h2>
+                <h2><a href="sub3.html">앨범 정보</a></h2>
+                <h2><a href="sub4.html">이벤트</a></h2>
+            </nav>
+            <ul>
+                <li><i class="xi-briefcase"></i></li>
+                <li><i class="far fa-bell"></i></li>
+            </ul>
+            <div class="profile">
+                <div class="image"></div>
+            </div>
+        </div>
+    </header>
+</div> -->
+        
+        <header class="conHdr">
+            <h2>앨범 정보</h2>
+        </header>
+        <div class="content ct1">
+            <section class="info">
+                <div class="albumCover">
+                    <div class="image"></div>
+                </div>
+                <div class="albumInfo">
+                    <h5>EP</h5>
+                    <h2>조각집</h2>
+                    <h3>아이유</h3>
+                    <div class="btn">
+                        <button>
+                            <i class="fas fa-play"></i>
+                        </button>
+                    </div>
+                    <p>
+                        ‘아이유(IU)’ [조각집]
+                        <br><br>
+                        구태여 바깥에 내놓지 않았던 내 이십대의
+                        <br>
+                        그 사이사이 조각들
+                    </p>
+                    <h6>더보기 <i class="xi-angle-right-min"></i></h6>
+                    <div class="info">
+                        <ul>
+                            <li><span>발매일</span> 2021.12.29</li>
+                            <li><span>곡장르</span> 발라드, 포크/블루스</li>
+                            <li><span>발매사</span> 카카오엔터테인먼트</li>
+                            <li><span>기획사</span> EDAM엔터테인먼트</li>
+                        </ul>
+                        <ol>
+                            <li><span>평가</span> 41,084명 <i class="xi-angle-right-min"></i></li>
+                            <li><span>댓글</span> 32,586개 <i class="xi-angle-right-min"></i></li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+            <div class="allBtns">
+                <div class="leftBtn">
+                    <button><i class="fas fa-play"></i>전체듣기</button>
+                    <button><i class="xi-shuffle"></i>랜덤재생</button>
+                    <button><i class="fas fa-play"></i>듣기</button>
+                    <button><i class="xi-plus"></i>담기</button>
+                    <button><i class="xi-download"></i>다운</button>
+                </div>
+                <div class="rightBtn">
+                    <ul>
+                        <li><i class="far fa-heart"></i></li>
+                        <li><i class="xi-plus"></i></li>
+                        <li><i class="xi-ellipsis-h"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="playlist">
+                <header>
+                    <ul>
+                        <li><i class="far fa-square"></i></li>
+                        <li>번호</li>
+                        <li>제목</li>
+                        <li>가수</li>
+                        <h6></h6>
+                    </ul>
+                </header>
+                <section>
+                    <article>
+                        <h6><i class="far fa-square"></i></h6>
+                        <h4>1</h4>
+                        <h4>드라마</h4>
+                        <h4>아이유</h4>
+                        <div class="icons">
+                            <ul>
+                                <li><i class="far fa-heart"></i></li>
+                                <li><i class="xi-plus"></i></li>
+                                <li><i class="xi-ellipsis-h"></i></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <h6><i class="far fa-square"></i></h6>
+                        <h4>2</h4>
+                        <h4>정거장</h4>
+                        <h4>아이유</h4>
+                        <div class="icons">
+                            <ul>
+                                <li><i class="far fa-heart"></i></li>
+                                <li><i class="xi-plus"></i></li>
+                                <li><i class="xi-ellipsis-h"></i></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <h6><i class="far fa-square"></i></h6>
+                        <h4>3</h4>
+                        <h4>겨울잠</h4>
+                        <h4>아이유</h4>
+                        <div class="icons">
+                            <ul>
+                                <li><i class="far fa-heart"></i></li>
+                                <li><i class="xi-plus"></i></li>
+                                <li><i class="xi-ellipsis-h"></i></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <h6><i class="far fa-square"></i></h6>
+                        <h4>4</h4>
+                        <h4>너</h4>
+                        <h4>아이유</h4>
+                        <div class="icons">
+                            <ul>
+                                <li><i class="far fa-heart"></i></li>
+                                <li><i class="xi-plus"></i></li>
+                                <li><i class="xi-ellipsis-h"></i></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <h6><i class="far fa-square"></i></h6>
+                        <h4>5</h4>
+                        <h4>러브레터</h4>
+                        <h4>아이유</h4>
+                        <div class="icons">
+                            <ul>
+                                <li><i class="far fa-heart"></i></li>
+                                <li><i class="xi-plus"></i></li>
+                                <li><i class="xi-ellipsis-h"></i></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <h6><i class="far fa-square"></i></h6>
+                        <h4>6</h4>
+                        <h4>시간의 바깥</h4>
+                        <h4>아이유</h4>
+                        <div class="icons">
+                            <ul>
+                                <li><i class="far fa-heart"></i></li>
+                                <li><i class="xi-plus"></i></li>
+                                <li><i class="xi-ellipsis-h"></i></li>
+                            </ul>
+                        </div>
+                    </article>
+                </section>
+            </div>
+        </div>
+        <div class="content ct2">
+            <header>
+                <h3>뮤직비디오</h3>
+            </header>
+            <section>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <article class="swiper-slide">
+                            <div class="youtube y1">
+                                <iframe width="100%" height="200" src="https://www.youtube.com/embed/D1PvIWdJ8xo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <h5>[MV] IU(아이유) _ Blueming(블루밍)</h5>
+                        </article>
+                        <article class="swiper-slide">
+                            <div class="youtube y1">
+                                <iframe width="100%" height="200" src="https://www.youtube.com/embed/c7Bjngepbqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <h5>[Teaser] IU(아이유) _ Blueming(블루밍)</h5>
+                        </article>
+                        <article class="swiper-slide">
+                            <div class="youtube y2">
+                                <iframe width="100%" height="200" src="https://www.youtube.com/embed/bbe3UJ3TdLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <h5>[Teaser] IU(아이유) _ The visitor(그 사람)</h5>
+                        </article>
+                        <article class="swiper-slide">
+                            <div class="youtube y3">
+                                <iframe width="100%" height="200" src="https://www.youtube.com/embed/R3Fwdnij49o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <h5>[MV] IU(아이유) _ (시간의 바깥)</h5>
+                        </article>
+                        <article class="swiper-slide">
+                            <div class="youtube y4">
+                                <iframe width="100%" height="200" src="https://www.youtube.com/embed/-5q5mZbe3V8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <h5>[MV]Life Goes On (like an...</h5>
+                        </article>
+                        <article class="swiper-slide">
+                            <div class="youtube y5">
+                                <iframe width="100%" height="200" src="https://www.youtube.com/embed/-5q5mZbe3V8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <h5>[MV]Life Goes On (like an...</h5>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="content ct3">
+            <header>
+                <h3>아티스트의 관련 앨범</h3>
+                <h6>더보기</h6>
+            </header>
+            <section>
+                <article>
+                    <div class="image i1"></div>
+                    <h5>Therefore I Am</h5>
+                    <h6>Billie Eilish</h6>
+                </article>
+                <article>
+                    <div class="image i2"></div>
+                    <h5>Everything I Wanted (Remix)</h5>
+                    <h6>Billie Eilish</h6>
+                </article>
+                <article>
+                    <div class="image i3"></div>
+                    <h5>No Time To Die</h5>
+                    <h6>Billie Eilish</h6>
+                </article>
+                <article>
+                    <div class="image i4"></div>
+                    <h5>everything i wanted</h5>
+                    <h6>Billie Eilish</h6>
+                </article>
+                <article>
+                    <div class="image i5"></div>
+                    <h5>bad guy (with Justin Bieber)</h5>
+                    <h6>Billie Eilish</h6>
+                </article>
+            </section>
+        </div>
+        <div class="content ct4">
+            <header>
+                <h3>비슷한 아티스트</h3>
+                <h6>더보기</h6>
+            </header>
+            <section>
+                <article>
+                    <div class="image i1"></div>
+                    <h5>Lizzo</h5>
+                </article>
+                <article>
+                    <div class="image i2"></div>
+                    <h5>Shawn Mendes</h5>
+                </article>
+                <article>
+                    <div class="image i3"></div>
+                    <h5>Anne-Marie</h5>
+                </article>
+                <article>
+                    <div class="image i4"></div>
+                    <h5>Halsey</h5>
+                </article>
+                <article>
+                    <div class="image i5"></div>
+                    <h5>Ruel</h5>
+                </article>
+            </section>
+        </div>
+        <div class="content ct5">
+            <header>
+                <h3>댓글</h3>
+            </header>
+            <section>
+                <div class="cBox">
+                    <div class="profile">
+                        <div class="image"></div>
+                    </div>
+                    <input type="text" placeholder="* 게시물의 저작권 등 분쟁, 개인정보 노출로 인한 책임은 작성자 또는 게시자에게 있음을 유의해 주세요.">
+                    <div class="btn">
+                        <button>등록</button>
+                    </div>
+                </div>
+                <div class="comment">
+                    <ul>
+                        <h5>총<span> 275</span> 개</h5>
+                        <li>최신순</li>
+                        <li>추천순</li>
+                        <li>답글순</li>
+                    </ul>
+                </div>
+                <article>
+                    <div class="profile">
+                        <div class="image"></div>
+                    </div>
+                    <h6 class="peID">nickname</h6>
+                    <ul>
+                        <h6>blah blah blah comments section</h6>
+                        <li>2020.12.27 00:18</li>
+                        <li>답글 0개 <i class="xi-angle-down-min"></i></li>
+                    </ul>
+                    <ol>
+                        <li><i class="far fa-thumbs-up"></i> 1</li>
+                        <li><i class="far fa-thumbs-down"></i> 1</li>
+                        <li><i class="fas fa-ban"></i></li>
+                    </ol>
+                </article>
+                <article>
+                    <div class="profile">
+                        <div class="image"></div>
+                    </div>
+                    <h6 class="peID">nickname</h6>
+                    <ul>
+                        <h6>blah blah blah comments section</h6>
+                        <li>2020.12.27 00:18</li>
+                        <li>답글 0개 <i class="xi-angle-down-min"></i></li>
+                    </ul>
+                    <ol>
+                        <li><i class="far fa-thumbs-up"></i> 1</li>
+                        <li><i class="far fa-thumbs-down"></i> 1</li>
+                        <li><i class="fas fa-ban"></i></li>
+                    </ol>
+                </article>
+                <article>
+                    <div class="profile">
+                        <div class="image"></div>
+                    </div>
+                    <h6 class="peID">nickname</h6>
+                    <ul>
+                        <h6>blah blah blah comments section</h6>
+                        <li>2020.12.27 00:18</li>
+                        <li>답글 0개 <i class="xi-angle-down-min"></i></li>
+                    </ul>
+                    <ol>
+                        <li><i class="far fa-thumbs-up"></i> 1</li>
+                        <li><i class="far fa-thumbs-down"></i> 1</li>
+                        <li><i class="fas fa-ban"></i></li>
+                    </ol>
+                </article>
+                <article>
+                    <div class="profile">
+                        <div class="image"></div>
+                    </div>
+                    <h6 class="peID">nickname</h6>
+                    <ul>
+                        <h6>blah blah blah comments section</h6>
+                        <li>2020.12.27 00:18</li>
+                        <li>답글 0개 <i class="xi-angle-down-min"></i></li>
+                    </ul>
+                    <ol>
+                        <li><i class="far fa-thumbs-up"></i> 1</li>
+                        <li><i class="far fa-thumbs-down"></i> 1</li>
+                        <li><i class="fas fa-ban"></i></li>
+                    </ol>
+                </article>
+                <article>
+                    <div class="profile">
+                        <div class="image"></div>
+                    </div>
+                    <h6 class="peID">nickname</h6>
+                    <ul>
+                        <h6>blah blah blah comments section</h6>
+                        <li>2020.12.27 00:18</li>
+                        <li>답글 0개 <i class="xi-angle-down-min"></i></li>
+                    </ul>
+                    <ol>
+                        <li><i class="far fa-thumbs-up"></i> 1</li>
+                        <li><i class="far fa-thumbs-down"></i> 1</li>
+                        <li><i class="fas fa-ban"></i></li>
+                    </ol>
+                </article>
+                <article>
+                    <div class="profile">
+                        <div class="image"></div>
+                    </div>
+                    <h6 class="peID">nickname</h6>
+                    <ul>
+                        <h6>blah blah blah comments section</h6>
+                        <li>2020.12.27 00:18</li>
+                        <li>답글 0개 <i class="xi-angle-down-min"></i></li>
+                    </ul>
+                    <ol>
+                        <li><i class="far fa-thumbs-up"></i> 1</li>
+                        <li><i class="far fa-thumbs-down"></i> 1</li>
+                        <li><i class="fas fa-ban"></i></li>
+                    </ol>
+                </article>
+                <div class="pageBtn">
+                    <button><i class="fas fa-angle-double-left"></i></button>
+                    <button><i class="fas fa-angle-left"></i></button>
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button>4</button>
+                    <button>5</button>
+                    <button><i class="fas fa-angle-right"></i></button>
+                    <button><i class="fas fa-angle-double-right"></i></button>
+                </div>
+            </section>
+        </div>
+    </div>
+    <? include 'tail.html' ?>
+    <!-- <div class="fixedPlayer">
+    <div class="pWrapper">
+        <div class="album">
+            <div class="image"></div>
+        </div>
+        <div class="title">
+            <ul>
+                <h3>Don't Start Now</h3>
+                <h5>Dua Lipa</h5>
+            </ul>
+        </div>
+        <div class="btn1">
+            <ul>
+                <li><i class="fas fa-step-backward"></i></li>
+                <li class="btPlay"><i class="fas fa-play"></i></li>
+                <li><i class="fas fa-step-forward"></i></li>
+            </ul>
+        </div>
+        <div class="playbar">
+            <ul>
+                <li><i class="xi-repeat"></i></li>
+                <li class="bar">
+                    <div class="full"></div>
+                    <div class="playing"></div>
+                </li>
+                <h5>3:03</h5>
+                <li><i class="xi-shuffle"></i></li>
+            </ul>
+        </div>
+        <div class="btn2">
+            <ul>
+                <li><i class="xi-bars"></i></li>
+                <li><i class="xi-ellipsis-h"></i></li>
+            </ul>
+        </div>
+    </div>
+</div> -->
+</body></html>
