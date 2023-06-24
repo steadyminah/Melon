@@ -1,0 +1,414 @@
+/*sub3.css*/melon_index
+body{
+    color: #fff;
+}
+div.wrapper{
+    background: linear-gradient(45deg, #5c6697 0%, #a48e91 20%, #768c8b 50%, #5c6697 80%, #505269 100%);
+    background-size: 400% auto;
+    background-position: 0 0;
+    animation-name: bgAnimate;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes bgAnimate{
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 100%;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+div.wrapper .hdrWrap header .search ul input{
+    background: 0; color: #FFF; border-bottom: 1px solid #FFF;
+}
+div.wrapper .hdrWrap header .search ul input::placeholder{
+    color: #fff;
+}
+div.wrapper .hdrWrap header .search ul button{
+    color: #FFF;
+}
+div.wrapper .hdrWrap header .menuTap nav h2{
+    color: #FFF;
+}
+div.wrapper .conHdr{
+    color: #fff;
+}
+
+
+
+div.ct1{
+    padding-top: 40px;
+}
+div.ct1 .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+div.ct1 .info .albumCover{
+    width: 45%;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+div.ct1 .info .albumCover .image{
+    height: 600px; background-image: url(../img/melon_sub3_album.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div.ct1 .info .albumInfo{
+    width: 50%;
+}
+div.ct1 .info .albumInfo h5{
+    line-height: 40px;
+}
+div.ct1 .info .albumInfo h2{
+    line-height: 60px;
+}
+div.ct1 .info .albumInfo .btn{
+    margin-top: 30px;
+}
+div.ct1 .info .albumInfo .btn button{
+    width: 80px; height: 80px; border-radius: 100px; background-color: rgba(255, 255, 255, 0.2); border: 0;
+    font-size: 24px; color: #fff;
+    transition: 0.3s;
+}
+div.ct1 .info .albumInfo .btn button:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 5px 12px rgba(0,0,0,0.1);
+}
+div.ct1 .info .albumInfo p{
+    margin-top: 30px; height: 100px; overflow: hidden;
+}
+div.ct1 .info .albumInfo h6{
+    text-align: right; color: #fff;
+    margin-top: 10px;
+}
+div.ct1 .info .albumInfo .info{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+div.ct1 .info .albumInfo span{
+    font-weight: 500; margin-right: 30px;
+}
+div.ct1 .info .albumInfo .info ol{
+    margin-top: 40px;
+}
+
+div.ct1 .allBtns{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+div.ct1 .allBtns .leftBtn{
+    width: 90%;
+    display: flex;
+}
+div.ct1 .allBtns .leftBtn button{
+    width: 142px; line-height: 40px; font-size: 16px; color: #fff;
+    background: 0; border: 1px solid #fff; border-radius: 5px;
+    margin-right: 20px;
+}
+div.ct1 .allBtns .leftBtn button i{
+    margin-right: 5px; font-size: 14px;
+}
+div.ct1 .allBtns .leftBtn button:hover{
+    background-color: #00cd3c; color: #fff; border: 1px solid #00cd3c;
+}
+div.ct1 .allBtns .rightBtn ul{
+    display: flex;
+}
+div.ct1 .allBtns .rightBtn ul li{
+    color: #fff; font-size: 24px; margin-left: 10px;
+}
+
+div.ct1 .playlist{
+    width: 100%;
+}
+div.ct1 .playlist header{
+    margin-top: 40px;
+}
+div.ct1 .playlist header ul{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+div.ct1 .playlist header ul li{
+    line-height: 40px;
+}
+div.ct1 .playlist header ul li:nth-of-type(1){
+    width: 2%;
+}
+div.ct1 .playlist header ul li:nth-of-type(2){
+    width: 10%;
+}
+div.ct1 .playlist header ul li:nth-of-type(3){
+    width: 40%;
+}
+div.ct1 .playlist header ul li:nth-of-type(4){
+    width: 40%;
+}
+div.ct1 .playlist header ul h6{
+    width: 8%;
+}
+div.ct1 .playlist section{}
+div.ct1 .playlist section article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+    border-bottom: 1px solid #ebebeb;
+}
+div.ct1 .playlist section article h6{
+    width: 2%; color: #fff;
+}
+div.ct1 .playlist section article h4:nth-of-type(1){
+    width: 10%; font-weight: 300;
+}
+div.ct1 .playlist section article h4:nth-of-type(2){
+    width: 40%;
+}
+div.ct1 .playlist section article h4:nth-of-type(3){
+    width: 40%; font-weight: 300;
+}
+div.ct1 .playlist section article .icons{
+    width: 8%; 
+}
+div.ct1 .playlist section article .icons ul{
+    display: flex;
+    justify-content: flex-end;
+}
+div.ct1 .playlist section article .icons ul li{
+    font-size: 24px; margin-left: 10px; color: #00cd3c;
+}
+
+
+
+div.ct2{
+    padding: 80px 0;
+    border-bottom: 1px solid #fff;
+}
+div.ct2 section{
+    margin-top: 20px;
+    overflow: hidden;
+}
+div.ct2 section .swiper-container{
+    width: 170%;
+    overflow: hidden;
+}
+div.ct2 section .swiper-container .swiper-wrapper{
+    display: flex;
+}
+div.ct2 section .swiper-container .swiper-wrapper .swiper-slide{
+    position: relative;
+}
+div.ct2 section .swiper-container .swiper-wrapper .swiper-slide .youtube iframe{
+    border-radius: 10px;
+}
+div.ct2 section .swiper-container .swiper-wrapper .swiper-slide h5{
+   line-height: 40px; font-weight: 500;
+}
+
+
+
+div.ct3{
+    padding: 80px 0;
+    border-bottom: 1px solid #fff;
+}
+div.ct3 header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.ct3 header h6{
+    color: #fff;
+}
+div.ct3 section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+div.ct3 section article{
+    width: calc(20% - 20px);
+}
+div.ct3 section article .image{
+    height: 250px;
+    background-size: cover; background-position: center;
+}
+div.ct3 section article h5{
+    margin-top: 20px; font-weight: 500;
+}
+div.ct3 section article h6{
+    color: #fff;
+}
+
+div.ct3 section article .i1{background-image: url(../img/melon_sub3_album_12.jpg);}
+div.ct3 section article .i2{background-image: url(../img/melon_sub3_album_14.jpg);}
+div.ct3 section article .i3{background-image: url(../img/melon_sub3_album_16.jpg);}
+div.ct3 section article .i4{background-image: url(../img/melon_sub3_album_18.jpg);}
+div.ct3 section article .i5{background-image: url(../img/melon_sub3_album_20.jpg);}
+
+
+
+div.ct4{
+    padding: 80px 0;
+    border-bottom: 1px solid #fff;
+}
+div.ct4 header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.ct4 header h6{
+    color: #fff;
+}
+div.ct4 section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+div.ct4 section article{
+    width: calc(20% - 20px);
+}
+div.ct4 section article .image{
+    height: 250px;
+    background-size: cover; background-position: center;
+}
+div.ct4 section article h5{
+    margin-top: 20px; font-weight: 500
+}
+div.ct4 section article h6{
+    color: #fff;
+}
+
+div.ct4 section article .i1{background-image: url(../img/melon_sub3_artist_03.jpg);}
+div.ct4 section article .i2{background-image: url(../img/melon_sub3_artist_05.jpg);}
+div.ct4 section article .i3{background-image: url(../img/melon_sub3_artist_07.jpg);}
+div.ct4 section article .i4{background-image: url(../img/melon_sub3_artist_09.jpg);}
+div.ct4 section article .i5{background-image: url(../img/melon_sub3_artist_11.jpg);}
+
+
+
+div.ct5{
+    padding-top: 80px;
+}
+div.ct5 section{}
+div.ct5 section .cBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #00cd3c; border-radius: 10px;
+    padding: 40px;
+    margin-top: 20px;
+}
+div.ct5 section .cBox .profile{
+    width: 7%; margin-right: 10px;
+}
+div.ct5 section .cBox .profile .image{
+    width: 80px; height: 80px; background-color: #ccc; border-radius: 100px; 
+    background-image: url(../img/melon_header_profile.jpg);
+    background-position: center;
+}
+div.ct5 section .cBox input{
+    width: 84%; border-radius: 10px; border: 1px solid #999;
+    height: 100px; 
+    padding-left: 20px; color: #999;
+    margin: 0 10px;
+}
+div.ct5 section .cBox .btn{
+    width: 9%;
+    text-align: right;
+    margin-left: 10px;
+}
+div.ct5 section .cBox .btn button{
+    width: 100%; max-width: 100px; height: 100px;
+    border-radius: 10px; color: #00cd3c; border: 2px solid #00cd3c; background: 0;
+    font-weight: 700;
+}
+div.ct5 section .cBox .btn button:hover{
+    background-color: #00cd3c; color: #fff;
+}
+
+div.ct5 section .comment{}
+div.ct5 section .comment ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 40px;
+    margin-top: 20px;
+}
+div.ct5 section .comment ul h5{
+    font-weight: 500;
+    width: 85%;
+}
+div.ct5 section .comment ul h5 span{
+    color: #00cd3c;
+}
+div.ct5 section .comment ul li{
+    font-weight: 500; line-height: 20px;
+}
+div.ct5 section .comment ul li:hover{
+    color: #222;
+}
+
+div.ct5 section article{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #ebebeb;
+    padding: 20px 0 20px 40px;
+}
+div.ct5 section article .image{
+    width: 80px; height: 80px; background-color: #ccc; border-radius: 100px; margin-right: 20px;
+}
+div.ct5 section article .peID{
+    color: #fff; line-height: 40px; font-weight: 500;
+    width: 14%; margin-right: 20px;
+}
+div.ct5 section article ul{
+    width: 60%; margin-right: 20px;
+}
+div.ct5 section article ul h6{
+    color: #fff; line-height: 40px;
+}
+div.ct5 section article ul li{
+    font-size: 12px;
+}
+div.ct5 section article ul li i{
+    color: #00cd3c;
+}
+div.ct5 section article ol{
+    display: flex;
+}
+div.ct5 section article ol li{
+    font-size: 16px; margin-left: 20px;
+}
+div.ct5 section article ol li:nth-of-type(1){
+    color: #f24f4f;
+}
+div.ct5 section article ol li:nth-of-type(2){
+    color: #448ccb;
+}
+div.ct3 section article ol li:nth-of-type(3){
+    color: #999;
+}
+div.ct5 section article:last-of-type{
+    border-bottom: 1px solid #ebebeb;
+}
+
+div.ct5 section .pageBtn{
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 200px;
+}
+div.ct5 section .pageBtn button{
+    width: 30px; height: 30px; border: 1px solid #ebebeb;
+    background: 0; color: #fff; border-radius: 5px;
+}
+div.ct5 section .pageBtn button:hover{
+    color: #fff; background-color: #00cd3c; border: 1px solid #00cd3c;
+}
